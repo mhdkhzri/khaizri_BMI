@@ -1,0 +1,103 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  color: #2d89e5;
+  font-weight: 700;
+}
+
+p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #5bc0de;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2d89e5;
+}
+
+/* BMI Form Styling */
+.bmi-form {
+  text-align: center;
+}
+
+.bmi-form label, .bmi-form input {
+  display: block;
+  margin: 10px auto;
+  font-size: 1rem;
+}
+
+.bmi-form input {
+  padding: 8px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#result {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d89e5;
+  margin-top: 20px;
+}
+
+.bmi-info {
+  margin-top: 30px;
+}
+
+.info-section {
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
